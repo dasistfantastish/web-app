@@ -13,7 +13,7 @@ function App() {
       })
     },[])
   return (
-    <div className="App">
+    <div className="app">
       <p>Hello world!</p>
       <ul>
         {people.map(p =>(
