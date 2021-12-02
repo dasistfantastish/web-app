@@ -13,8 +13,13 @@ function App() {
       })
     },[])
   return (
+<<<<<<< HEAD
     <div className="app">
       <p>Hello world!</p>
+=======
+    <div className="App">
+      <p>Huy!</p>
+>>>>>>> 22f02d778143d3b3687fac99b0bc3c1d4771dbf1
       <ul>
         {people.map(p =>(
           <li key={p.id}>{p.name}</li>
