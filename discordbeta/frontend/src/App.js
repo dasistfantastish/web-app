@@ -1,27 +1,26 @@
-import React, {useState, useEffect} from 'react';
-import axios from 'axios';
-import './App.css';
+import React from 'react';
+
+
 
 function App() {
-    const [people, setpeople] = useState([])
-    useEffect( () => {
-      axios({
-        method: "GET",
-        url: "http://127.0.0.1:8000/api/test-api/",
-      }).then(response =>{
-        setpeople(response.data)
-      })
-    },[])
   return (
-    <div className="App">
-      <p>Huy!</p>
-      <ul>
-        {people.map(p =>(
-          <li key={p.id}>{p.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
+   <div className = "body">
+    
+         <form  className = "registetr">
+          <p className = "email">Email and number Telephon</p>
+          <input className = "regiserinput1"  placeholder = "Email"></input>
+          <p className = "Name">Name</p>
+          <input className = "regiserinput2"  placeholder = "Name"></input>
+          <p className = "pasword1">Pasword</p>
+          <input className = "regiserinput3"  placeholder = "pasword"></input>
+          <p className = "pasword2">Reaet pasword</p>
+          <input className = "regiserinput4" placeholder = "Reset"></input>
+          <button type = "submit">Next</button>
+         
+     </form>
+   </div>
+  
+  )
 }
 
 export default App;
