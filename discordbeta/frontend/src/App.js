@@ -14,7 +14,7 @@ function App() {
     },[])
   return (
     <div className="App">
-      <p>Hello world!</p>
+      <p>Huy!</p>
       <ul>
         {people.map(p =>(
           <li key={p.id}>{p.name}</li>
