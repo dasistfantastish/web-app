@@ -12,37 +12,82 @@ code {
     monospace;
 }
 .body {
-  height: 785px;
+  min-height: 610px;
   background-color:  black;
+  font-size: 18px;
 }
 .registetr {
+height: 330px;
+width: 300px;
 text-align: center;
-padding-top: 200px;
+padding-top: 50px;
 color:  #fff;
+position: relative;
+border: rgb(24, 24, 22) solid 2px;
+position: relative;
+left: 35%;
+background-color: rgb(12, 12, 11);
 }
+
 .regiserinput1 {
+width: 200px;
+background-color: black;
+
 
 }
 .regiserinput2 {
-  
+  width: 200px;
+background-color: black;
+
 }
 .regiserinput3 {
-  
+  width: 200px;
+  background-color: black;
+   
+}
+.regiserinput4 {
+  width: 200px;
+background-color: black;
+
 }
 .email{
- 
+  position: absolute;
+  top: 5px;
+  left: 45px;
 }
 .Name {
-
+margin-right: 165px;
 }
 .pasword1 {
-
+  margin-right: 145px;
 }
+
 .pasword2 {
+  margin-right: 90px;
 
 }
-
-
+.logopng {
+  min-height: 50px;
+  max-width: 80px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.registorbtn {
+  display: flex;
+  position: absolute;
+  top: 110%;
+  right: 35%;
+  height: 30px;
+  width: 90px;
+  color: #fff;
+  background-color: rgb(24, 24, 22);
+  text-align: center;
+}
+.textbtnregist {
+  position: absolute;
+  top : -25%;
+  left: 35%;
+}
 
 
 
