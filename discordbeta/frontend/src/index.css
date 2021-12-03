@@ -12,9 +12,13 @@ code {
     monospace;
 }
 .body {
-  min-height: 610px;
-  background-color:  black;
+  
   font-size: 18px;
+  background-image: url(https://discordik.ru/wp-content/uploads/2021/02/fon-dlya-diskorda.png)   ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  min-height: 610px;
 }
 .registetr {
 height: 330px;
@@ -26,7 +30,9 @@ position: relative;
 border: rgb(24, 24, 22) solid 2px;
 position: relative;
 left: 35%;
-background-color: rgb(12, 12, 11);
+z-index: 2;
+background-color: rgb(24, 24, 22) ;
+
 }
 
 .regiserinput1 {

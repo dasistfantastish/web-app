@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "./photo/png/logo.png"
+import Mainpage from "./Component/Mainpage.js"
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <input className = "regiserinput3"  placeholder = "pasword"></input>
           <p className = "pasword2">Reaet pasword</p>
           <input className = "regiserinput4" placeholder = "Reset"></input>
-          <button type = "submit" className = "registorbtn">
+          <button type = "submit" className = "registorbtn" >
             <p className = "textbtnregist">Next</p>
           </button>
          
