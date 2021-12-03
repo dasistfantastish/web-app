@@ -11,3 +11,113 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.body {
+  
+  font-size: 18px;
+  background-image: url(https://discordik.ru/wp-content/uploads/2021/02/fon-dlya-diskorda.png)   ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  min-height: 610px;
+}
+.registetr {
+height: 330px;
+width: 300px;
+text-align: center;
+padding-top: 50px;
+color:  #fff;
+position: relative;
+border: rgb(24, 24, 22) solid 2px;
+position: relative;
+left: 35%;
+z-index: 2;
+background-color: rgb(24, 24, 22) ;
+
+}
+
+.regiserinput1 {
+width: 200px;
+background-color: black;
+
+
+}
+.regiserinput2 {
+  width: 200px;
+background-color: black;
+
+}
+.regiserinput3 {
+  width: 200px;
+  background-color: black;
+   
+}
+.regiserinput4 {
+  width: 200px;
+background-color: black;
+
+}
+.email{
+  position: absolute;
+  top: 5px;
+  left: 45px;
+}
+.Name {
+margin-right: 165px;
+}
+.pasword1 {
+  margin-right: 145px;
+}
+
+.pasword2 {
+  margin-right: 90px;
+
+}
+.logopng {
+  min-height: 50px;
+  max-width: 80px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.registorbtn {
+  display: flex;
+  position: absolute;
+  top: 110%;
+  right: 35%;
+  height: 30px;
+  width: 90px;
+  color: #fff;
+  background-color: rgb(24, 24, 22);
+  text-align: center;
+}
+.textbtnregist {
+  position: absolute;
+  top : -25%;
+  left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
