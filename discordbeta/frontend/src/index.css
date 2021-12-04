@@ -106,7 +106,9 @@ margin-left: 40px;
 
 
 
-
+.Mainpage {
+  z-index: 2;
+}
 
 
 
