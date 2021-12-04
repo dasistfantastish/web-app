@@ -5,6 +5,7 @@ import Mainpage from "./Component/Mainpage.js";
 
 
 function App() {
+  
   return (
     <Register/> 
   );

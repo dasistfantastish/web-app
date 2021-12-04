@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {
@@ -12,79 +13,82 @@ code {
     monospace;
 }
 .body {
-  
-  font-size: 18px;
+  font-size: 14px;
   background-image: url(https://discordik.ru/wp-content/uploads/2021/02/fon-dlya-diskorda.png)   ;
   background-repeat: no-repeat;
   background-size: 100%;
-  max-width: 100%;
+  width: 100%;
   min-height: 610px;
 }
 .registetr {
-height: 330px;
-width: 300px;
-text-align: center;
-padding-top: 50px;
+min-height: 100px;
+width: 40%;
 color:  #fff;
 position: relative;
-border: rgb(24, 24, 22) solid 2px;
+border: rgb(36, 36, 33) solid 2px;
 position: relative;
-left: 35%;
+left: 30%;
 z-index: 2;
-background-color: rgb(24, 24, 22) ;
+background-color: rgb(34, 34, 33) ;
+
+}
+.registetrcontent {
+max-height: 30%;
 
 }
 
+.regiserinput {
+width: 80%;
+background-color: rgb(10, 10, 10);
+height: 20px;
+color: #fff;
+margin-left: 40px;
+
+}
 .regiserinput1 {
-width: 200px;
-background-color: black;
-
-
-}
-.regiserinput2 {
-  width: 200px;
-background-color: black;
-
-}
-.regiserinput3 {
-  width: 200px;
-  background-color: black;
-   
-}
-.regiserinput4 {
-  width: 200px;
-background-color: black;
-
-}
+  width: 80%;
+  background-color: rgb(10, 10, 10);
+  height: 20px;
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  
+  }
+  .Creatacount {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.9;
+  }
 .email{
-  position: absolute;
-  top: 5px;
-  left: 45px;
+  margin-left: 40px;
+  opacity: 0.8;
 }
 .Name {
-margin-right: 165px;
+  margin-left: 40px;
+  opacity: 0.8;
 }
 .pasword1 {
-  margin-right: 145px;
+  margin-left: 40px;
+  opacity: 0.8;
 }
 
 .pasword2 {
-  margin-right: 90px;
-
+  opacity: 0.8;
+  margin-left: 40px;
 }
 .logopng {
-  min-height: 50px;
-  max-width: 80px;
+  min-height: 3%;
+  max-width: 5%;
   margin-top: 20px;
   margin-left: 60px;
 }
 .registorbtn {
   display: flex;
   position: absolute;
-  top: 110%;
-  right: 35%;
+  top: 105%;
+  right: 30%;
   height: 30px;
-  width: 90px;
+  width: 200px;
   color: #fff;
   background-color: rgb(24, 24, 22);
   text-align: center;
@@ -92,7 +96,7 @@ margin-right: 165px;
 .textbtnregist {
   position: absolute;
   top : -25%;
-  left: 35%;
+  left: 42%;
 }
 
 
@@ -102,6 +106,9 @@ margin-right: 165px;
 
 
 
+.Mainpage {
+  z-index: 2;
+}
 
 
 
