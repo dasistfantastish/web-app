@@ -20,5 +20,7 @@ from DiscordApp.views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path ('', index),
-    path ('api/', include('DiscordApp.api.urls'))
+    path ('api/', include('DiscordApp.api.urls')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
 ]
