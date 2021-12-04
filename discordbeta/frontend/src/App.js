@@ -4,6 +4,7 @@ import Mainpage from "./Component/Mainpage.js"
 
 
 function App() {
+  
   return (
    <div className = "body">
      <div className = "registerimtem">
@@ -29,6 +30,8 @@ function App() {
    </div>
   
   )
-}
+  
+ }
+
 
 export default App;
