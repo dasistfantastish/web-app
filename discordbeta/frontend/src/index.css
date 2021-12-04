@@ -12,69 +12,64 @@ code {
     monospace;
 }
 .body {
-  
   font-size: 18px;
   background-image: url(https://discordik.ru/wp-content/uploads/2021/02/fon-dlya-diskorda.png)   ;
   background-repeat: no-repeat;
   background-size: 100%;
-  max-width: 100%;
+  width: 100%;
   min-height: 610px;
 }
 .registetr {
-height: 330px;
-width: 300px;
-text-align: center;
-padding-top: 50px;
+min-height: 100px;
+width: 40%;
 color:  #fff;
 position: relative;
-border: rgb(24, 24, 22) solid 2px;
+border: rgb(36, 36, 33) solid 2px;
 position: relative;
-left: 35%;
+left: 30%;
 z-index: 2;
-background-color: rgb(24, 24, 22) ;
+background-color: rgb(34, 34, 33) ;
 
 }
+.registetrcontent {
+max-height: 30%;
+}
 
+.regiserinput {
+width: 400px;
+background-color: rgb(10, 10, 10);
+height: 20px;
+color: #fff;
+margin-left: 40px;
+
+}
 .regiserinput1 {
-width: 200px;
-background-color: black;
+  width: 400px;
+  background-color: rgb(10, 10, 10);
+  height: 20px;
+  color: #fff;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  
+  }
 
-
-}
-.regiserinput2 {
-  width: 200px;
-background-color: black;
-
-}
-.regiserinput3 {
-  width: 200px;
-  background-color: black;
-   
-}
-.regiserinput4 {
-  width: 200px;
-background-color: black;
-
-}
 .email{
-  position: absolute;
-  top: 5px;
-  left: 45px;
+
 }
 .Name {
-margin-right: 165px;
+
 }
 .pasword1 {
-  margin-right: 145px;
+  
 }
 
 .pasword2 {
-  margin-right: 90px;
+ 
 
 }
 .logopng {
-  min-height: 50px;
-  max-width: 80px;
+  min-height: 3%;
+  max-width: 5%;
   margin-top: 20px;
   margin-left: 60px;
 }
@@ -82,7 +77,7 @@ margin-right: 165px;
   display: flex;
   position: absolute;
   top: 110%;
-  right: 35%;
+  right: 50%;
   height: 30px;
   width: 90px;
   color: #fff;
